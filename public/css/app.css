@@ -12182,3 +12182,7 @@ body {
   color: #555555;
 }
 
+main {
+  min-height: calc(100vh - 56px - 56px);
+}
+

@@ -15,11 +15,11 @@
 </head>
 
 <body>
-    <header>site header here</header>
+    @include('partials.header')
     <main>
         @yield('content')
     </main>
-    <footer>site footer here</footer>
+    @include('partials.footer')
 
     <script src="{{ asset('js/app.js') }}"></script>
 
