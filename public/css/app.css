@@ -12173,3 +12173,12 @@ fieldset:disabled .btn {
   }
 }
 
+body {
+  color: #efefef;
+  background-color: #555555;
+}
+
+.movies .card-body {
+  color: #555555;
+}
+
